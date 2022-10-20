@@ -16,6 +16,29 @@
 @import url("./blocks/intro/__photos/intro__photos.css");
 @import url("./blocks/intro/__photo/intro__photo.css");
 
+@import url("./blocks/cities/cities.css");
+
+@import url("./blocks/city/city.css");
+@import url("./blocks/city/__column-left/city__column-left.css");
+@import url("./blocks/city/__column-right/city__column-right.css");
+@import url("./blocks/city/__title/city__title.css");
+@import url("./blocks/city/__title/_large/city__title_large.css");
+@import url("./blocks/city/__title/_short/city__title_short.css");
+@import url("./blocks/city/__image/city__image.css");
+@import url("./blocks/city/__link/city__link.css");
+@import url("./blocks/city/__author-label/city__author-label.css");
+@import url("./blocks/city/__author/city__author.css");
+@import url("./blocks/city/__text/city__text.css");
+@import url("./blocks/city/__paragraph/city__paragraph.css");
+
+@import url("./blocks/footer/footer.css");
+@import url("./blocks/footer/__image/footer__image.css");
+@import url("./blocks/footer/__content/footer__content.css");
+@import url("./blocks/footer/__title/footer__title.css");
+@import url("./blocks/footer/__information/footer__information.css");
+@import url("./blocks/footer/__link/footer__link.css");
+@import url("./blocks/footer/__author/footer__author.css");
+
 body {
   background-color: #2a2c2f;
 }
