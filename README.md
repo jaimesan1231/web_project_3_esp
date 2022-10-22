@@ -1,11 +1,5 @@
 # De patria a patria
 
-### Descripción general
-
-- Introducción
-- Figma
-- Imágenes
-
 ## Descripción
 
 Este proyecto muestra las ciudades natales de algunos de los empleados de Practicum. La funcionalidad del proyecto es poner a prueba los conocimientos de responsive design y grid adquiridos en esta etapa del bootcamp de Desarrollo web.
@@ -16,3 +10,5 @@ Este proyecto muestra las ciudades natales de algunos de los empleados de Practi
 - [x] CSS
 
 ### Enlace a la página en github pages
+
+[https://jaimesan1231.github.io/web_project_3_esp/]
