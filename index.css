@@ -1,4 +1,5 @@
 @import url("./blocks/page/page.css");
+@import url("./blocks/page/__link/page__link.css");
 
 @import url("./blocks/logo/logo.css");
 @import url("./blocks/logo/_place/logo_place_header.css");
@@ -13,8 +14,9 @@
 @import url("./blocks/intro/__quote/intro__quote.css");
 @import url("./blocks/intro/__quote-author/intro__quote-author.css");
 @import url("./blocks/intro/__text/intro__text.css");
-@import url("./blocks/intro/__photos/intro__photos.css");
-@import url("./blocks/intro/__photo/intro__photo.css");
+
+@import url("./blocks/photos-grid/photos-grid.css");
+@import url("./blocks/photos-grid/__item/photos-grid__item.css");
 
 @import url("./blocks/cities/cities.css");
 
@@ -24,10 +26,12 @@
 @import url("./blocks/city/__title/city__title.css");
 @import url("./blocks/city/__title/_large/city__title_large.css");
 @import url("./blocks/city/__title/_short/city__title_short.css");
+@import url("./blocks/city/__image-container/city__image-container.css");
 @import url("./blocks/city/__image/city__image.css");
 @import url("./blocks/city/__link/city__link.css");
-@import url("./blocks/city/__author-label/city__author-label.css");
 @import url("./blocks/city/__author/city__author.css");
+@import url("./blocks/city/__author-label/city__author-label.css");
+@import url("./blocks/city/__author-name/city__author-name.css");
 @import url("./blocks/city/__text/city__text.css");
 @import url("./blocks/city/__paragraph/city__paragraph.css");
 
@@ -46,4 +50,5 @@ body {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }

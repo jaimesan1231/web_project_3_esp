@@ -1,4 +1,10 @@
 .city__column-left {
-  width: 460px;
+  width: 46.7%;
+  min-width: 355px;
   overflow: visible;
+}
+@media screen and (max-width: 740px) {
+  .city__column-left {
+    width: 95%;
+  }
 }

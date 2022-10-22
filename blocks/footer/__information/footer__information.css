@@ -8,3 +8,10 @@
   align-items: center;
   margin: 32px 0;
 }
+@media screen and (max-width: 600px) {
+  .footer__information {
+    font-size: 14px;
+    line-height: 1.42;
+    margin: 16px 0;
+  }
+}

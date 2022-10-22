@@ -1,3 +1,9 @@
 .city__column-right {
-  width: 484px;
+  width: 49.2%;
+  min-width: 352px;
+}
+@media screen and (max-width: 740px) {
+  .city__column-right {
+    width: 95%;
+  }
 }

@@ -1,3 +1,8 @@
 .city__title_large {
   min-width: 584px;
 }
+@media screen and (max-width: 768px) {
+  .city__title_large {
+    min-width: 288px;
+  }
+}

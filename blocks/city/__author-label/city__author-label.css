@@ -8,3 +8,9 @@
   color: #aaaaaa;
   margin-bottom: 8px;
 }
+
+@media screen and (max-width: 768px) {
+  .city__author-label {
+    margin-top: 0px;
+  }
+}

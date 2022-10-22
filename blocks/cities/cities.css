@@ -1,0 +1,8 @@
+.cities {
+  padding-bottom: 92px;
+}
+@media screen and (max-width: 600px) {
+  .cities {
+    padding-bottom: 64px;
+  }
+}

@@ -1,6 +1,25 @@
 .city {
-  display: flex;
-  margin-left: 148px;
-  gap: 0px 40px;
+  max-width: 984px;
+  display: grid;
   padding-bottom: 80px;
+  margin: 0 auto;
+  min-width: 500px;
+  grid-template-columns: minmax(355px, 46.7%) minmax(352px, 49.2%);
+  grid-template-areas:
+    " title author"
+    " image description";
+  gap: 0 2%;
+  position: relative;
+}
+@media screen and (max-width: 740px) {
+  .city {
+    grid-template-columns: minmax(288px, 100%);
+    grid-template-areas:
+      " title "
+      " image "
+      " author"
+      " description";
+    min-width: 288px;
+    margin-top: 16px;
+  }
 }

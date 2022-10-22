@@ -1,7 +1,8 @@
 .intro__text {
-  width: 720px;
-  margin: 42px 0 92px 148px;
+  max-width: 720px;
+  margin-top: 42px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
+  min-width: 288px;
 }

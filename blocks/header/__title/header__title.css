@@ -1,8 +1,24 @@
 .header__title {
-  width: 793px;
+  max-width: 793px;
   text-align: center;
   font-size: 96px;
   font-weight: 900;
   line-height: 1.04;
-  margin: 91px 0 32px;
+  margin: 90px 0 32px;
+  width: 95%;
+  min-width: 288px;
+}
+@media screen and (max-width: 768px) {
+  .header__title {
+    margin-top: max(51px, 11.72%);
+    margin-bottom: 99px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__title {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 60px;
+  }
 }

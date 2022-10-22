@@ -1,0 +1,22 @@
+.photos-grid {
+  width: 92.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  min-width: 288px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 800px) {
+  .photos-grid {
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photos-grid {
+    grid-template-columns: 1fr;
+    padding-bottom: 46px;
+  }
+}

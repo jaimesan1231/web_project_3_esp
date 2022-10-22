@@ -1,0 +1,7 @@
+.page__link {
+  transition: background-color 0.5s ease;
+}
+
+.page__link:hover {
+  background-color: #0063d2;
+}
